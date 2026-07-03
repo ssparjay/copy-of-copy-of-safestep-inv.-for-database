@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "/api/index.ts"
+    },
+    {
+      "source": "/assets/:path*",
+      "destination": "/dist/assets/:path*"
+    },
+    {
+      "source": "/favicon.ico",
+      "destination": "/dist/favicon.ico"
+    },
+    {
+      "source": "/logo.png",
+      "destination": "/dist/logo.png"
+    },
+    {
+      "source": "/icon.png",
+      "destination": "/dist/icon.png"
+    },
+    {
+      "source": "/((?!api|assets|favicon.ico|logo.png|icon.png).*)",
+      "destination": "/dist/index.html"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Copy of SAFESTEP INV. for database",
+  "description": "Premium warehouse inventory management for SafeStep Philippines, featuring intelligent product tracking and batch scanning.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
